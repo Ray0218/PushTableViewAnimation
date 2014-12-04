@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MacroDefinition.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UINavigationBar appearance] setBarTintColor:RGB(65, 62, 74)];
     return YES;
 }
 

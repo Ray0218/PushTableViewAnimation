@@ -1,0 +1,16 @@
+PODS:
+  - FXBlurView (1.6.3)
+  - pop (1.0.7)
+  - Shimmer (1.0.2)
+
+DEPENDENCIES:
+  - FXBlurView
+  - pop
+  - Shimmer
+
+SPEC CHECKSUMS:
+  FXBlurView: abe1046285813c4f6e9008abbc324fc5ab32af90
+  pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  Shimmer: 057fcfe9c1c978d69d50b64fce93a61080cd08ec
+
+COCOAPODS: 0.34.4
