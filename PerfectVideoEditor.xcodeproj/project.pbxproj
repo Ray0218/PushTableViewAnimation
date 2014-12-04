@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92C596F91A2FED200071698B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C596F81A2FED200071698B /* main.m */; };
+		92C596FC1A2FED200071698B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C596FB1A2FED200071698B /* AppDelegate.m */; };
+		92C596FF1A2FED200071698B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C596FE1A2FED200071698B /* ViewController.m */; };
+		92C597021A2FED200071698B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C597001A2FED200071698B /* Main.storyboard */; };
+		92C597041A2FED200071698B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C597031A2FED200071698B /* Images.xcassets */; };
+		92C597071A2FED200071698B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C597051A2FED200071698B /* LaunchScreen.xib */; };
+		92C597131A2FED200071698B /* PerfectVideoEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C597121A2FED200071698B /* PerfectVideoEditorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92C5970D1A2FED200071698B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C596EB1A2FED200071698B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C596F21A2FED200071698B;
+			remoteInfo = PerfectVideoEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92C596F31A2FED200071698B /* PerfectVideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectVideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C596F71A2FED200071698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C596F81A2FED200071698B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92C596FA1A2FED200071698B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92C596FB1A2FED200071698B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92C596FD1A2FED200071698B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92C596FE1A2FED200071698B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92C597011A2FED200071698B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92C597031A2FED200071698B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92C597061A2FED200071698B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		92C5970C1A2FED200071698B /* PerfectVideoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectVideoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C597111A2FED200071698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C597121A2FED200071698B /* PerfectVideoEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectVideoEditorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C596F01A2FED200071698B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C597091A2FED200071698B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C596EA1A2FED200071698B = {
+			isa = PBXGroup;
+			children = (
+				92C596F51A2FED200071698B /* PerfectVideoEditor */,
+				92C5970F1A2FED200071698B /* PerfectVideoEditorTests */,
+				92C596F41A2FED200071698B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C596F41A2FED200071698B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C596F31A2FED200071698B /* PerfectVideoEditor.app */,
+				92C5970C1A2FED200071698B /* PerfectVideoEditorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C596F51A2FED200071698B /* PerfectVideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				92C596FA1A2FED200071698B /* AppDelegate.h */,
+				92C596FB1A2FED200071698B /* AppDelegate.m */,
+				92C596FD1A2FED200071698B /* ViewController.h */,
+				92C596FE1A2FED200071698B /* ViewController.m */,
+				92C597001A2FED200071698B /* Main.storyboard */,
+				92C597031A2FED200071698B /* Images.xcassets */,
+				92C597051A2FED200071698B /* LaunchScreen.xib */,
+				92C596F61A2FED200071698B /* Supporting Files */,
+			);
+			path = PerfectVideoEditor;
+			sourceTree = "<group>";
+		};
+		92C596F61A2FED200071698B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C596F71A2FED200071698B /* Info.plist */,
+				92C596F81A2FED200071698B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92C5970F1A2FED200071698B /* PerfectVideoEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				92C597121A2FED200071698B /* PerfectVideoEditorTests.m */,
+				92C597101A2FED200071698B /* Supporting Files */,
+			);
+			path = PerfectVideoEditorTests;
+			sourceTree = "<group>";
+		};
+		92C597101A2FED200071698B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C597111A2FED200071698B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C596F21A2FED200071698B /* PerfectVideoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C597161A2FED200071698B /* Build configuration list for PBXNativeTarget "PerfectVideoEditor" */;
+			buildPhases = (
+				92C596EF1A2FED200071698B /* Sources */,
+				92C596F01A2FED200071698B /* Frameworks */,
+				92C596F11A2FED200071698B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectVideoEditor;
+			productName = PerfectVideoEditor;
+			productReference = 92C596F31A2FED200071698B /* PerfectVideoEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C5970B1A2FED200071698B /* PerfectVideoEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C597191A2FED200071698B /* Build configuration list for PBXNativeTarget "PerfectVideoEditorTests" */;
+			buildPhases = (
+				92C597081A2FED200071698B /* Sources */,
+				92C597091A2FED200071698B /* Frameworks */,
+				92C5970A1A2FED200071698B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C5970E1A2FED200071698B /* PBXTargetDependency */,
+			);
+			name = PerfectVideoEditorTests;
+			productName = PerfectVideoEditorTests;
+			productReference = 92C5970C1A2FED200071698B /* PerfectVideoEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C596EB1A2FED200071698B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zangqilong;
+				TargetAttributes = {
+					92C596F21A2FED200071698B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					92C5970B1A2FED200071698B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 92C596F21A2FED200071698B;
+					};
+				};
+			};
+			buildConfigurationList = 92C596EE1A2FED200071698B /* Build configuration list for PBXProject "PerfectVideoEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C596EA1A2FED200071698B;
+			productRefGroup = 92C596F41A2FED200071698B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C596F21A2FED200071698B /* PerfectVideoEditor */,
+				92C5970B1A2FED200071698B /* PerfectVideoEditorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C596F11A2FED200071698B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C597021A2FED200071698B /* Main.storyboard in Resources */,
+				92C597071A2FED200071698B /* LaunchScreen.xib in Resources */,
+				92C597041A2FED200071698B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C5970A1A2FED200071698B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C596EF1A2FED200071698B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C596FF1A2FED200071698B /* ViewController.m in Sources */,
+				92C596FC1A2FED200071698B /* AppDelegate.m in Sources */,
+				92C596F91A2FED200071698B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C597081A2FED200071698B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C597131A2FED200071698B /* PerfectVideoEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92C5970E1A2FED200071698B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C596F21A2FED200071698B /* PerfectVideoEditor */;
+			targetProxy = 92C5970D1A2FED200071698B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92C597001A2FED200071698B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C597011A2FED200071698B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92C597051A2FED200071698B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C597061A2FED200071698B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C597141A2FED200071698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92C597151A2FED200071698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C597171A2FED200071698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PerfectVideoEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92C597181A2FED200071698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PerfectVideoEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92C5971A1A2FED200071698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PerfectVideoEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectVideoEditor.app/PerfectVideoEditor";
+			};
+			name = Debug;
+		};
+		92C5971B1A2FED200071698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PerfectVideoEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectVideoEditor.app/PerfectVideoEditor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C596EE1A2FED200071698B /* Build configuration list for PBXProject "PerfectVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C597141A2FED200071698B /* Debug */,
+				92C597151A2FED200071698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C597161A2FED200071698B /* Build configuration list for PBXNativeTarget "PerfectVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C597171A2FED200071698B /* Debug */,
+				92C597181A2FED200071698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92C597191A2FED200071698B /* Build configuration list for PBXNativeTarget "PerfectVideoEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C5971A1A2FED200071698B /* Debug */,
+				92C5971B1A2FED200071698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C596EB1A2FED200071698B /* Project object */;
+}
