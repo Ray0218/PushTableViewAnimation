@@ -51,11 +51,7 @@
       [[UIColor whiteColor] setStroke];
     [bezierPath2 stroke];
     
-    CABasicAnimation * pathAnimation = [CABasicAnimation animationWithKeyPath:@"path"];
-    pathAnimation.fromValue = (__bridge id)[startPath CGPath];
-    pathAnimation.toValue = (__bridge id)[endPath CGPath];
-    pathAnimation.duration = 5.0f;
-    [myLineShapeLayer addAnimation:pathAnimation forKey:@"animationKey"];
+   
 }
 /*
 // Only override drawRect: if you perform custom drawing.
