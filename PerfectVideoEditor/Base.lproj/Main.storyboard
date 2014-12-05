@@ -15,22 +15,20 @@
                     <view key="view" contentMode="scaleToFill" id="HL0-Jc-Qyd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Wt3-sF-82i">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="Tl2-nE-red">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="14y-hh-fag">
-                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOc-Of-c1e">
+                                <rect key="frame" x="137" y="430" width="31" height="30"/>
+                                <state key="normal" title="start">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="startAnimation:" destination="NVW-l6-gPF" eventType="touchUpInside" id="F85-sH-RpS"/>
+                                    <segue destination="vXZ-lx-hvc" kind="push" id="e5i-pJ-JZp"/>
                                 </connections>
                             </button>
-                        </barButtonItem>
-                    </navigationItem>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wt3-sF-82i"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vwy-iO-cpk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
